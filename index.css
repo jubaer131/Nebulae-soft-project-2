@@ -71,12 +71,102 @@ body {
 
 }
 
-/*strategy secton */
-
-.strategy {
-    margin-top: 250px;
+/* banner section*/
+body {
+    margin: 0;
+    padding: 0;
 }
 
+.slider-container {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+}
+
+.slide {
+    margin-top: 100px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 12s ease-in-out;
+}
+
+.slide.active img {
+    transform: scale(1.1);
+    /* Zoom in */
+}
+
+.slide-content {
+    position: absolute;
+    bottom: 130px;
+    left: 60px;
+    padding: 1rem;
+    color: white;
+    z-index: 10;
+    max-width: 650px;
+}
+
+.slide-content h2 {
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 0;
+    letter-spacing: 5px;
+}
+
+.slide-content h1 {
+    font-size: 4rem;
+    font-weight: 500px;
+}
+
+.slide-content button {
+    width: 210px;
+    padding: 0.7rem 1.5rem;
+    background-color: #0f090907;
+    border: 1px solid white;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.slide-content button:hover {
+    background-color: white;
+    color: black;
+
+}
+
+
+/*strategy secton */
+
+.strategy-section {
+    padding-bottom: 150px;
+
+}
+
+.strategy-section h2 {
+    padding-top: 170px;
+    font-size: 44px;
+}
+
+.strategy-section-image {
+    padding-bottom: 250px;
+}
 
 
 
@@ -141,10 +231,18 @@ body {
 
 
     /*strategy secton */
+    .strategy-section {
+        padding: 50px;
 
-    .strategy {
-        margin-top: 2px;
     }
 
+    .strategy-section h2 {
+        padding-top: 0px;
+        font-size: 40px;
+    }
+
+    .strategy-section-image {
+        padding-bottom: 0px;
+    }
 
 }
