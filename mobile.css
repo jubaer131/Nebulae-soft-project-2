@@ -106,6 +106,19 @@
         font-size: 22px;
     }
 
+    /* map-section */
+
+    .map-section {
+        padding-left: 60px;
+
+    }
+
+    .map-section h2 {
+        margin-bottom: 25px;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
     /* footer */
 
     .footer {
