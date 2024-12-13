@@ -117,7 +117,7 @@ body {
     position: absolute;
     bottom: 130px;
     left: 60px;
-    padding: 1rem;
+    padding: 1.5rem;
     color: white;
     z-index: 10;
     max-width: 650px;
@@ -128,6 +128,7 @@ body {
     font-weight: 500;
     margin: 0;
     letter-spacing: 5px;
+    padding: 0.4rem;
 }
 
 .slide-content h1 {
@@ -144,6 +145,7 @@ body {
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin: 0.4rem;
 }
 
 .slide-content button:hover {

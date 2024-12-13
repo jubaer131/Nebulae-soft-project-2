@@ -76,6 +76,7 @@
 
     .slide-content h2 {
         font-size: 1rem;
+        padding: 0.2rem;
     }
 
     .slide-content h1 {
@@ -86,6 +87,8 @@
     .slide-content button {
         padding: 0.4rem 0.8rem;
         font-size: 0.8rem;
+        width: 14rem;
+        margin: 0.2rem;
     }
 
     /*strategy secton */
@@ -97,7 +100,8 @@
 
     .strategy-section h2 {
         padding-top: 0px;
-        font-size: 40px;
+        font-size: 2.4rem;
+        padding-right: 4rem;
     }
 
     .strategy-section-image {
@@ -190,7 +194,7 @@
 
 /* banner section*/
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .slide-content h2 {
         font-size: 0.8rem;
     }
@@ -204,7 +208,7 @@
         font-size: 0.9rem;
     }
 
-}
+} */
 
 
 /* video img section */
