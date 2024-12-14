@@ -129,7 +129,9 @@ body {
     margin: 0;
     letter-spacing: 5px;
     padding: 0.4rem;
+
 }
+
 
 .slide-content h1 {
     font-size: 4rem;
@@ -154,6 +156,27 @@ body {
 
 }
 
+/* image section-1 */
+
+.qodef-e-content-inner-1 {
+    position: absolute;
+    bottom: 52px;
+    left: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 75px;
+}
+
+.qodef-e-content-inner-2 {
+    position: absolute;
+    bottom: 52px;
+    left: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
 
 /*strategy secton */
 
@@ -331,6 +354,34 @@ body {
 .map-section h2 {
     margin-bottom: 44px;
 }
+
+.left-side-image {
+    overflow: hidden;
+    /* Prevents the image from overflowing the container */
+}
+
+.left-side-image img {
+    animation: scaleInOut 25s ease-in-out infinite;
+    animation-delay: 6s;
+    transform-origin: center;
+}
+
+/* Keyframes for scaling animation */
+@keyframes scaleInOut {
+
+    0%,
+    100% {
+        transform: scale(1);
+        /* Original size */
+    }
+
+    50% {
+        transform: scale(1.1);
+        /* Scaled size */
+    }
+}
+
+
 
 /* Contract Us section */
 

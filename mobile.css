@@ -91,6 +91,27 @@
         margin: 0.2rem;
     }
 
+    /* image section-1 */
+    .qodef-e-content-inner-1 {
+        font-size: 18px;
+        position: absolute;
+        left: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .qodef-e-content-inner-2 {
+        font-size: 18px;
+        position: absolute;
+        left: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 55px;
+    }
+
     /*strategy secton */
 
     .strategy-section {
