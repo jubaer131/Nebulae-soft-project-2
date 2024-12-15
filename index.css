@@ -418,12 +418,18 @@ body {
 
 /* map-section */
 
-.map-section {
+/* .map-section {
     padding-right: 130px;
-}
+} */
 
 .map-section h2 {
     margin-bottom: 44px;
+    /* padding-left: 20px; */
+}
+
+.map-section-div {
+    gap: 100px;
+    /* padding-left: 20px; */
 }
 
 .left-side-image {
