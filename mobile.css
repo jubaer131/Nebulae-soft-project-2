@@ -92,6 +92,7 @@
     }
 
     /* image section-1 */
+
     .qodef-e-content-inner-1 {
         font-size: 18px;
         position: absolute;
@@ -169,7 +170,7 @@
     /* carousel Auto playing section */
 
     #carouselAutoplaying {
-        padding: 25px;
+        padding: 35px;
         margin-top: 80px;
         margin-bottom: 35px;
     }
@@ -179,6 +180,11 @@
     }
 
 
+    .button-prev-1 {
+        display: none;
+        color: white;
+
+    }
 
     /* image section-2 */
 

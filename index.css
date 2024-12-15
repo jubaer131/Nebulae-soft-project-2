@@ -257,18 +257,18 @@ body {
 .custom-h4 {
     max-width: 100%;
     width: 498px;
-    bottom: 35px;
+    bottom: 50px;
     left: 50%;
-    transform: translateX(-50%);
-    padding: 10px;
+    transform: translateX(-52%);
+    padding: 20px;
 }
 
 /* carousel Auto playing section */
 
 #carouselAutoplaying {
-    margin-top: 120px;
-    margin-bottom: 40px;
-    padding: 80px;
+
+    padding: 160px;
+
 }
 
 .static-quote {
@@ -278,6 +278,7 @@ body {
 .quote-testimonials {
     fill: #b29063;
     stroke: none;
+
 }
 
 .carousel-item {
@@ -289,7 +290,7 @@ body {
 }
 
 .carousel-item h3 {
-    margin: 0 0 56px;
+    margin: 0 0 36px;
     font-weight: 400;
     font-size: 34px;
     line-height: 1.294em;
@@ -318,6 +319,16 @@ body {
 
 .carousel-control-prev {
     left: -2rem;
+
+}
+
+.button-prev-1:hover {
+    color: black;
+
+}
+
+.button-prev-1 {
+    color: black;
 
 }
 
@@ -350,7 +361,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 20px;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-bottom: 20px;
 }
 
 .custom-column h4,
@@ -470,6 +483,11 @@ body {
     padding-right: 200px;
     font-size: 17px;
     color: #797c8d;
+}
+
+.inpute-placeHolder::placeholder {
+    color: #8a8785;
+    opacity: 1;
 }
 
 .icon-hover-color {
