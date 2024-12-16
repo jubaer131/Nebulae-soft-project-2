@@ -202,7 +202,7 @@
     }
 
     .map-section {
-        padding-left: 60px;
+        padding-left: 40px;
 
     }
 
@@ -284,5 +284,19 @@
         width: 70px;
         height: 70px;
     }
+}
 
+
+/* map section */
+
+@media (min-width: 767px) and (max-width: 1140px) {
+    .map-section h2 {
+        margin-bottom: 44px;
+        padding-left: 40px;
+    }
+
+    .map-section-div {
+        gap: 10px;
+        padding-left: 40px;
+    }
 }
