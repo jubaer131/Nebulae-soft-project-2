@@ -2,18 +2,29 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Halstein</title>
-    <!-- Bootstrap CSS for styling -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="media.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-Us-Bootstrap5</title>
+    <!-- Bootstrap5 link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Marcellus&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
-    <!-- Header section -->
+    <!-- Navigation bar -->
+
     <nav class="navbar bg-body-tertiary fixed-top">
         <div class="container-fluid d-flex flex-nowrap div-container-top-border ">
             <!-- left side bar -->
@@ -93,12 +104,12 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-5 gap-md-5">
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link " href="index.html" role="button" data-bs-toggle="dropdown"
-                                            aria-expanded="false">
+                                        <a class="nav-link " href="../index.html" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
                                             HOME
                                         </a>
                                         <ul class="dropdown-menu ">
-                                            <li><a class="dropdown-item" href="index.html">MAIN HOME</a></li>
+                                            <li><a class="dropdown-item" href="../index.html">MAIN HOME</a></li>
                                             <li><a class="dropdown-item" href="#">CONSULTING</a></li>
                                             <li><a class="dropdown-item" href="#">MENTORSHIP</a>
                                             </li>
@@ -120,14 +131,15 @@
                                             PAGE
                                         </a>
                                         <ul class="dropdown-menu ">
-                                            <li><a class="dropdown-item" href="about.html">ABOUT US</a></li>
+                                            <li><a class="dropdown-item" href="../about.html">ABOUT US</a></li>
                                             <li><a class="dropdown-item" href="#">OUR TEAM</a></li>
 
                                             <li><a class="dropdown-item" href="#"> EVENTS </a></li>
                                             <li><a class="dropdown-item" href="#"> PRICING PLANS </a></li>
                                             <li><a class="dropdown-item" href="#"> WORK INQUIRY </a></li>
                                             <li><a class="dropdown-item" href="#"> GET IN TOUCH </a></li>
-                                            <li><a class="dropdown-item" href="contractUs/contractUs.html"> CONTRACT US
+                                            <li><a class="dropdown-item" href="../contractUs/contractUs.html"> CONTRACT
+                                                    US
                                                 </a></li>
                                             <li><a class="dropdown-item" href="#">FAQ PAGE </a></li>
                                             <li><a class="dropdown-item" href="#"> COMMING SOON </a></li>
@@ -206,8 +218,7 @@
                                 <img style="width: 220px; background-size: cover; background-position: center; background-repeat: no-repeat;"
                                     src="https://i.ibb.co/LrtQkL6/footer-logo.png" alt="Halstein Logo" class="mb-3">
                                 <p style="color: #c5c5c5; padding-top: 15px; padding-bottom: 20px;">Professional &
-                                    A truly Professional theme designed for bussinessess and bussiness consultation.
-                                </p>
+                                    A truly Professional theme designed for bussinessess and bussiness consultation.</p>
 
                                 <div class="d-flex align-items-center gap-3">
                                     <!-- Social Icon 1 -->
@@ -244,269 +255,74 @@
         </div>
     </nav>
 
-    <!-- Page title section -->
-    <section class="page-title d-flex flex-column justify-content-center position-relative">
-        <div class="ps-md-5 ps-3">
-            <h1>About Us</h1>
-            <!-- Breadcrumb navigation -->
-            <div class="page-sub-title">
-                <a class="page-sub-title-link text-decoration-none" href="https://halstein.qodeinteractive.com/">
-                    <span>HOME</span>
-                </a>
-                <span class="page-sub-title-separator mx-2"> - </span>
-                <span class="page-sub-title-current">ABOUT US</span>
-            </div>
-        </div>
-    </section>
+    <!-- Banner section -->
 
-    <!-- mission statement section -->
-    <section class="missionStatement position-relative">
-        <img src="https://halstein.qodeinteractive.com/wp-content/uploads/2021/10/h1-img-014.png" class="mission-img"
-            alt="image" loading="eager" />
-
-        <div class="position-absolute top-50 start-50 translate-middle missionText">
-            <h2>
-                Launch your creative ideas. Whatever you
-                <span class="highlight-text" style="color: #b29063">imagine we</span>
-                will make it happen with our team of specialists.
-            </h2>
-            <h6 class="subtitle">Alex lee, ceo</h6>
-        </div>
-    </section>
-
-    <!-- cards section -->
-    <section class="container-fluid">
-        <div class="row align-items-start m-0">
-            <!-- Card 1 -->
-            <div class="col-12 col-lg-6">
-                <div>
-                    <a href="https://halstein.qodeinteractive.com/portfolio-item/expertise-advice/" target="_blank">
-                        <img class="card-img-top" alt="Card 1"
-                            src="https://halstein.qodeinteractive.com/wp-content/uploads/2021/10/h1-img-01.jpg"
-                            loading="eager" />
-                    </a>
-                </div>
-            </div>
-
-            <!-- Wrapper for Cards 2, 3, 4, and 5 -->
-            <div class="col-12 col-lg-6 py-2 pt-md-0">
-                <div class="row">
-                    <!-- Card 2 -->
-                    <div class="col-12 col-md-6 pt-md-4 pt-lg-0">
-                        <a href="https://halstein.qodeinteractive.com/portfolio-item/rebranding/" target="_blank">
-                            <img src="https://halstein.qodeinteractive.com/wp-content/uploads/2021/10/h1-img-02.jpg"
-                                alt="Card 2" class="card-img-top" loading="eager" />
-                        </a>
-                    </div>
-                    <!-- Card 3 -->
-                    <div class="col-12 col-md-6 pt-md-4 pt-lg-0">
-                        <a href="https://halstein.qodeinteractive.com/portfolio-item/golden-hello/" target="_blank">
-                            <img src="https://halstein.qodeinteractive.com/wp-content/uploads/2021/10/h1-img-03.jpg"
-                                alt="Card 3" class="card-img-top" loading="eager" />
-                        </a>
-                    </div>
-                    <!-- Card 4 -->
-                    <div class="col-12 col-md-6 pt-md-4">
-                        <a href="https://halstein.qodeinteractive.com/portfolio-item/intern-program/" target="_blank">
-                            <img src="https://halstein.qodeinteractive.com/wp-content/uploads/2021/10/h1-img-04.jpg"
-                                alt="Card 4" class="card-img-top" loading="eager" />
-                        </a>
-                    </div>
-                    <!-- Card 5 -->
-                    <div class="col-12 col-md-6 pt-md-4">
-                        <a href="https://halstein.qodeinteractive.com/portfolio-item/expertise-advice/" target="_blank">
-                            <img src="https://halstein.qodeinteractive.com/wp-content/uploads/2021/10/h1-img-05.jpg"
-                                alt="Card 5" class="card-img-top" loading="eager" />
-                        </a>
-                    </div>
+    <section class="d-flex align-items-center justify-content-center w-100 section1"
+        style="height: 550px; margin-top: 120px; background: url('https://i.ibb.co.com/Lgn14vR/contact-title-img.jpg') center/cover no-repeat;">
+        <div class="container text-start">
+            <div class="row">
+                <div class="mx-auto">
+                    <h5 style="color: #e1bd92; font-weight: 500; line-height: 40px; font-size:13px; letter-spacing: 7px;"
+                        class="">OUR
+                        PEOPLE
+                    </h5>
+                    <h1 style=" line-height: 40px; color: #404043; font-size: 55px; font-family: marsellus; font-weight: 400; 
+                        ">Contact Us</h1>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- expertise-section -->
-    <section class="container expertise-section">
-        <div class="section-title">
-            <h6 class="tagline">School professors</h6>
-            <h2 class="title">Expertise and roles we are leaders in.</h2>
-        </div>
-        <div class="list-items">
-            <ol class="row">
-                <li class="col-lg-6 list-item">
-                    <span class="list-item-number"></span>
-                    <div class="list-item-content">
-                        <h4 class="list-item-title">Passive investment</h4>
-                        <p class="list-item-text">
-                            Duis aute irure dolor in reprehenderit in voluptate sunt inuic.
-                        </p>
-                    </div>
-                </li>
-                <li class="col-lg-6 list-item">
-                    <span class="list-item-number"></span>
-                    <div class="list-item-content">
-                        <h4 class="list-item-title">Economy management</h4>
-                        <p class="list-item-text">
-                            Duis aute irure dolor in reprehenderit in voluptate sunt inuic.
-                        </p>
-                    </div>
-                </li>
-                <li class="col-lg-6 list-item">
-                    <span class="list-item-number"></span>
-                    <div class="list-item-content">
-                        <h4 class="list-item-title">Business development</h4>
-                        <p class="list-item-text">
-                            Duis aute irure dolor in reprehenderit in voluptate sunt inuic.
-                        </p>
-                    </div>
-                </li>
-                <li class="col-lg-6 list-item">
-                    <span class="list-item-number"></span>
-                    <div class="list-item-content">
-                        <h4 class="list-item-title">Digital marketing</h4>
-                        <p class="list-item-text">
-                            Duis aute irure dolor in reprehenderit in voluptate sunt inuic.
-                        </p>
-                    </div>
-                </li>
-                <li class="col-lg-6 list-item">
-                    <span class="list-item-number"></span>
-                    <div class="list-item-content">
-                        <h4 class="list-item-title">Cryptocurrency investment</h4>
-                        <p class="list-item-text">
-                            Duis aute irure dolor in reprehenderit in voluptate sunt inuic.
-                        </p>
-                    </div>
-                </li>
-                <li class="col-lg-6 list-item">
-                    <span class="list-item-number"></span>
-                    <div class="list-item-content">
-                        <h4 class="list-item-title">Business integration</h4>
-                        <p class="list-item-text">
-                            Duis aute irure dolor in reprehenderit in voluptate sunt inuic.
-                        </p>
-                    </div>
-                </li>
-                <li class="col-lg-6 list-item">
-                    <span class="list-item-number"></span>
-                    <div class="list-item-content">
-                        <h4 class="list-item-title">Monographic researches</h4>
-                        <p class="list-item-text">
-                            Duis aute irure dolor in reprehenderit in voluptate sunt inuic.
-                        </p>
-                    </div>
-                </li>
-            </ol>
-        </div>
-    </section>
+    <!-- first step section -->
 
-    <section class="container-fluid p-0">
-        <div class="row g-0">
-            <!-- Video Image with Play Button -->
-            <div class="col-md-8 position-relative">
-                <img width="1280" height="850"
-                    src="https://halstein.qodeinteractive.com/wp-content/uploads/2021/10/h1-video-img-01.jpg"
-                    class="img-fluid w-100" alt="Video Image" loading="eager" />
-                <a class="play position-absolute top-50 start-50 translate-middle"
-                    href="https://vimeo.com/124801644?_ga=2.124524106.111528814.1733161931-1290832292.1732800612"
-                    data-type="iframe">
-                    <svg class="svg--video-button" xmlns="http://www.w3.org/2000/svg" width="80" height="80"
-                        viewBox="0 0 206 206">
-                        <circle class="circle" stroke="white" stroke-width="4" fill="transparent" cx="103" cy="103"
-                            r="100"></circle>
-                        <polygon class="arrow" fill="white" points="95,84 125,103 95,122"></polygon>
-                    </svg>
-                </a>
-            </div>
-
-            <!-- Second Image with Text -->
-            <div class="col-md-4 position-relative sec-img">
-                <img decoding="async" width="640" height="850"
-                    src="https://halstein.qodeinteractive.com/wp-content/uploads/2021/10/h1-img-06.jpg"
-                    class="img-fluid w-100" alt="Second Image" style="object-fit: cover" loading="eager" />
-                <h4 class="m-0 position-absolute top-50 start-50 translate-middle text-white" style="max-width: 90%">
-                    Watch online presentation<br />
-                    about investments in stock<br />
-                    market for 2022.
-                </h4>
-            </div>
-        </div>
-    </section>
-
-    <!-- carousel auto-playing section -->
-    <section id="carouselAutoplaying" class="container carousel slide position-relative" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <!-- First Slide -->
-            <div class="carousel-item active">
-                <div class="d-flex flex-column justify-content-center align-items-center text-center h-100">
-                    <svg class="quote-testimonials mb-4" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" width="48.242" height="41.797"
-                        viewBox="0 0 48.242 41.797">
-                        <path
-                            d="M29.199 9.183a8.648 8.648 0 0 1 2.783-6.543A9.627 9.627 0 0 1 38.867.003a8.622 8.622 0 0 1 6.641 3.027 10.8 10.8 0 0 1 2.734 7.52 20.53 20.53 0 0 1-1.562 7.422 52.293 52.293 0 0 1-4.053 8.105 89.082 89.082 0 0 1-5.615 8.154q-3.125 4.053-6.348 7.568l-2.634-2.248a59.383 59.383 0 0 0 7.275-10.352 29.975 29.975 0 0 0 3.564-10.449 11.026 11.026 0 0 1-6.836-2.881 8.647 8.647 0 0 1-2.834-6.686Zm-27.93 0A8.723 8.723 0 0 1 4.003 2.64 9.457 9.457 0 0 1 10.839.003 8.622 8.622 0 0 1 17.48 3.03a10.8 10.8 0 0 1 2.734 7.52 20.53 20.53 0 0 1-1.562 7.422 52.291 52.291 0 0 1-4.053 8.105 89.076 89.076 0 0 1-5.615 8.154q-3.125 4.053-6.348 7.568l-2.637-2.246a61.558 61.558 0 0 0 7.324-10.352 27.981 27.981 0 0 0 3.516-10.449 10.919 10.919 0 0 1-6.738-2.881 8.647 8.647 0 0 1-2.832-6.688Z">
-                        </path>
-                    </svg>
-                    <h3 class="e-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eiusmod tempor <span style="color: #b29063">incididunt</span>
-                        <span style="color: #b29063">ut</span>
-                        <span style="color: #b29063">labore</span> et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis
-                    </h3>
-                    <h6 class="e-author mt-3">
-                        <span class="e-author-name">Cedric Xiong</span>
-                        <span class="e-author-job d-block">Ceo</span>
-                    </h6>
+    <section class="container-fluid ">
+        <div class="row align-items-center">
+            <!-- Text/Form  -->
+            <div class="col-lg-6 col-md-12 ">
+                <div class="text-form">
+                    <h5 style="color: #e0bf96; font-weight: 500; line-height: 30px; font-size:12px; letter-spacing: 7px;"
+                        class="text-uppercase  mb-3">First Step</h5>
+                    <h1 style="font-size: 48px; color: #373636; font-weight: 500; line-height: 50px;font-family: marsellus;"
+                        class="mb-4">For
+                        starters, tell us
+                        your name.</h1>
+                    <form>
+                        <div class="mb-3">
+                            <input style=" padding-top: 20px;" type="text" class="form-control custom-input"
+                                id="fullName" placeholder="Full name*">
+                        </div>
+                        <button type="submit" class="btn mt-5 text-end w-100 p-0">Next Step
+                            <span class=""><span style="font-size: 20px;color: #797c8d; padding-left: 10px;">|</span>
+                                <i style="color: #797c8d;" class="fa-solid fa-chevron-right"></i></span>
+                        </button>
+                    </form>
                 </div>
             </div>
 
-            <!-- Second Slide -->
-            <div class="carousel-item">
-                <div class="d-flex flex-column justify-content-center align-items-center text-center h-100">
-                    <svg class="quote-testimonials mb-4" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" width="48.242" height="41.797"
-                        viewBox="0 0 48.242 41.797">
-                        <path
-                            d="M29.199 9.183a8.648 8.648 0 0 1 2.783-6.543A9.627 9.627 0 0 1 38.867.003a8.622 8.622 0 0 1 6.641 3.027 10.8 10.8 0 0 1 2.734 7.52 20.53 20.53 0 0 1-1.562 7.422 52.293 52.293 0 0 1-4.053 8.105 89.082 89.082 0 0 1-5.615 8.154q-3.125 4.053-6.348 7.568l-2.634-2.248a59.383 59.383 0 0 0 7.275-10.352 29.975 29.975 0 0 0 3.564-10.449 11.026 11.026 0 0 1-6.836-2.881 8.647 8.647 0 0 1-2.834-6.686Zm-27.93 0A8.723 8.723 0 0 1 4.003 2.64 9.457 9.457 0 0 1 10.839.003 8.622 8.622 0 0 1 17.48 3.03a10.8 10.8 0 0 1 2.734 7.52 20.53 20.53 0 0 1-1.562 7.422 52.291 52.291 0 0 1-4.053 8.105 89.076 89.076 0 0 1-5.615 8.154q-3.125 4.053-6.348 7.568l-2.637-2.246a61.558 61.558 0 0 0 7.324-10.352 27.981 27.981 0 0 0 3.516-10.449 10.919 10.919 0 0 1-6.738-2.881 8.647 8.647 0 0 1-2.832-6.688Z">
-                        </path>
-                    </svg>
-                    <h3 class="e-text">
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu <span style="color: #b29063">fugiat</span>
-                        <span style="color: #b29063">nulla</span>
-                        <span style="color: #b29063">pariatur.</span> Excepteur sint
-                        occaecat cupidatat non proident, sunt in
-                    </h3>
-                    <h6 class="e-author mt-3">
-                        <span class="e-author-name">Ljilja Peltola</span>
-                        <span class="e-author-job d-block">Consultant</span>
-                    </h6>
+            <!-- google Map -->
+            <div class="col-lg-6 col-md-12">
+                <div class="map-container">
+                    <!-- Embed a Google Map -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.9503665265754!2d-74.00601588459906!3d40.7127753793316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a316348100f%3A0x174b0d184859e68e!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1690658449132!5m2!1sen!2sbd"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
-
-        <!-- Controls -->
-        <button class="carousel-control-prev d-none d-lg-block" type="button" data-bs-target="#carouselAutoplaying"
-            data-bs-slide="prev">
-            <svg class="slider-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px" y="0px" width="35px" height="53px" viewBox="0 0 35 53" style="enable-background: new 0 0 35 53"
-                xml:space="preserve">
-                <polyline points="19.6,42.1 4.3,26.6 19.6,10.8 "></polyline>
-                <line x1="34.5" y1="53" x2="34.5" y2="0"></line>
-            </svg>
-
-            <!-- Left arrow -->
-        </button>
-        <button class="carousel-control-next d-none d-lg-block" type="button" data-bs-target="#carouselAutoplaying"
-            data-bs-slide="next">
-            <svg class="slider-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px" y="0px" width="35px" height="53px" viewBox="0 0 35 53" style="enable-background: new 0 0 35 53"
-                xml:space="preserve">
-                <polyline points="15.4,10.9 30.7,26.4 15.4,42.2 "></polyline>
-                <line x1="0.5" y1="0" x2="0.5" y2="53"></line>
-            </svg>
-            <!-- Right arrow -->
-        </button>
     </section>
+
+
+    <!-- Follow us section -->
+
+    <section class="d-flex justify-content-center align-items-center w-100"
+        style="height: 250px; background-color: #fbf9f9; color: #393939;   font-family: marsellus; ">
+        <h1 style="font-size: 34px; font-weight: 500;" class="text-center mb-0  ">Follow us and receive latest
+            researches, insights & news
+        </h1>
+    </section>
+
+
+    <!-- Footer -->
 
     <footer class="footer"
         style="background-image: url('https://i.ibb.co/tJ7vJbC/footer-img-01.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
@@ -516,8 +332,7 @@
                 <div class="row" class="col-md-5 pt-2">
                     <img style="width: 220px; background-size: cover; background-position: center; background-repeat: no-repeat;"
                         src="https://i.ibb.co/LrtQkL6/footer-logo.png" alt="Halstein Logo" class="mb-3">
-                    <p class="footer-colom1">Professional & modern, a theme designed to help your business stand
-                        out
+                    <p class="footer-colom1">Professional & modern, a theme designed to help your business stand out
                         from the rest. For
                         marketing firms, business endeavors & business consulting.</p>
 
@@ -550,8 +365,7 @@
 
                 <!-- Column 2 -->
                 <div class="col-md-2">
-                    <h5 style="font-size: 17px; font-weight: 500;" class="text-uppercase pt-md-2 pt-4 ">Halstein
-                    </h5>
+                    <h5 style="font-size: 17px; font-weight: 500;" class="text-uppercase pt-md-2 pt-4 ">Halstein</h5>
                     <ul class="list-unstyled ">
                         <li class="py-2 "><a style="color: #797c8d;" href="#" class=" text-decoration-none">Privacy</a>
                         </li>
@@ -568,37 +382,30 @@
                 <div class="col-md-2">
                     <h5 style="font-size: 17px; font-weight: 500;" class="text-uppercase  pt-md-2 pt-4">FAQ</h5>
                     <ul class="list-unstyled">
-                        <li class="py-2"><a style="color: #797c8d;" href="#" class=" text-decoration-none">Got
-                                any
+                        <li class="py-2"><a style="color: #797c8d;" href="#" class=" text-decoration-none">Got any
                                 questions?</a></li>
                         <li class="py-2"><a style="color: #797c8d;" href="#" class=" text-decoration-none">Buying
                                 tickets?</a></li>
-                        <li class="py-2"><a style="color: #797c8d;" href="#" class=" text-decoration-none">How
-                                to
+                        <li class="py-2"><a style="color: #797c8d;" href="#" class=" text-decoration-none">How to
                                 advertise?</a></li>
-                        <li class="py-2"><a style="color: #797c8d;" href="#" class=" text-decoration-none">How
-                                to
-                                find
+                        <li class="py-2"><a style="color: #797c8d;" href="#" class=" text-decoration-none">How to find
                                 us?</a></li>
                     </ul>
                 </div>
 
                 <!-- Column 4 -->
                 <div class="col-md-2">
-                    <h5 style="font-size: 17px; font-weight: 500;" class="text-uppercase  pt-md-2 pt-4">
-                        Subscribe
-                    </h5>
+                    <h5 style="font-size: 17px; font-weight: 500;" class="text-uppercase  pt-md-2 pt-4">Subscribe</h5>
                     <form>
                         <div class="">
                             <div class="input-group">
                                 <input
-                                    style="background: none; color:#f6f4f1; border: none; border-bottom: 1px solid #e5e3df; border-radius: 0%; box-shadow: none; padding: 0%;"
-                                    type="text" class="form-control custom-input inpute-placeHolder" id="fullName"
-                                    placeholder="E-mail*">
+                                    style="background: none; color:#e5e3df; border: none; border-bottom: 1px solid #e5e3df; border-radius: 0%;"
+                                    type="text" class="form-control custom-input" id="fullName" placeholder="Email">
                                 <span
                                     style="background: none;  color: #797c8d;; border: none; border-bottom: 1px solid #e5e3df; border-radius: 0%;"
                                     class="input-group-text"><span
-                                        style="font-size: 20px;padding-bottom: 2px; padding-right: 2px;color: #88857d;">|</span>
+                                        style="font-size: 20px;padding-bottom: 5px; padding-right: 2px;color: #88857d;">|</span>
                                     <i style=" color: #797c8d;" class="fa-solid fa-chevron-right"></i></span></span>
                             </div>
                             <span style=" color: #797c8d;">*send message</span>
@@ -609,6 +416,8 @@
 
         </div>
         <hr style="border: 1px solid  #616370;">
+
+
 
         <div class="container d-md-flex justify-content-between ">
 
@@ -635,9 +444,18 @@
 
     </footer>
 
-    <!-- Bootstrap JS for interactive elements -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+
+
+    <!-- Popper.js and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <!-- index.js -->
+    <script src="index.js"></script>
+
 </body>
 
 </html>

@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0%;
+}
+
+.div-container-top-border {
+    border-top: 1px solid #dcd5d5;
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: nowrap; */
+}
+
+.left-side-bar {
+    width: 300px;
+    padding-right: 20px;
+
+}
+
+.navbar-logo {
+    width: 260px;
+    padding-left: 40px;
+}
+
+
+
+
+.div-container-leftside-border {
+    width: 1570px;
+    border-left: 1px solid #dcd5d5;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.header-bottom-border {
+    border-bottom: 1px solid #dcd5d5;
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    border: none;
+    margin-top: 6px;
+    border-radius: 0%;
+    border-top: 1px solid #dcd5d5;
+    padding: 20px;
+    padding-right: 50px;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    color: #956810;
+}
+
+.dropdown-menu a {
+    color: #956810;
+}
+
+.custom-navbar-toggler {
+    max-width: 505px;
+    max-height: 90px;
+}
+
+.Toggle-button {
+    width: 170px;
+    max-height: 97px;
+    padding: 25px 15px;
+    border: 0;
+    border-left: 1px solid #dcd5d5;
+    border-radius: 0%;
+    background-color: #f8f9fa;
+
+}
+
+/* first step section */
+
+.map-container {
+    height: 600px;
+}
+
+iframe {
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.text-form {
+    padding: 150px;
+}
+
+.custom-input {
+    border: none;
+    border-bottom: 1px solid #ccc7c7;
+    outline: none;
+    transition: border-bottom-color 0.3s ease;
+    border-radius: 0%;
+    padding-left: 0%;
+
+}
+
+.custom-input:focus {
+
+    outline: none;
+    box-shadow: none;
+}
+
+.custom-input::placeholder {
+    color: #797c8d;
+    opacity: 1;
+    font-size: 18px;
+
+}
+
+/* footer */
+
+.footer {
+    height: 640px;
+}
+
+.footer-container {
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
+.footer-colom1 {
+    padding-right: 200px;
+    font-size: 17px;
+    color: #797c8d;
+}
+
+.icon-hover-color {
+    transition: background-color 0.3s ease;
+    width: 32px;
+    height: 32px;
+    background-color: #ecdec2;
+    color: #797c8d;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.icon-hover-color a {
+    color: #2e2f31;
+}
+
+.icon-hover-color:hover {
+    background-color: none;
+    border: 1px solid #ecdec2;
+    background-color: #14203a;
+    color: #b49b69;
+}
+
+.icon-hover-color:hover a {
+    color: #ecdec2;
+}
+
+
+
+
+
+
+
+@media (max-width:768px) {
+
+    .div-container-top-border {
+        display: none;
+        border-top: none;
+        width: 100%;
+
+    }
+
+    .left-side-bar {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-logo {
+        max-width: 180px;
+        padding-left: 0%;
+
+    }
+
+    .nav-container1 {
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+
+
+    }
+
+    .nav-container2 {
+        max-width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 5%;
+        margin: 0%;
+    }
+
+
+    .div-container-leftside-border {
+        border-left: none;
+        /* max-width: 760px; */
+    }
+
+    .header-bottom-border {
+        border-bottom: none;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        border: none;
+    }
+
+    .Toggle-button {
+        width: 70px;
+        max-height: 50px;
+        padding: 15px 10px;
+        border-left: none;
+        display: none;
+    }
+
+    /* banner section  */
+    .section1 {
+        height: 400px;
+        padding-left: 30px;
+        padding-top: 30px;
+
+    }
+
+    .qodef-m-label.qodef-side-area-opener-text {
+        display: none;
+    }
+
+    .text-form {
+        padding: 20px;
+    }
+
+    /* footer */
+
+    .footer {
+        height: auto;
+        padding-top: 150px;
+        padding-bottom: 25px;
+        padding: 30px;
+    }
+
+    .footer-colom1 {
+        padding-right: 50px;
+
+    }
+
+    .footer-container {
+        padding: 0;
+        padding-bottom: 100px;
+    }
+
+}

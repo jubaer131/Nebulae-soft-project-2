@@ -1,6 +1,6 @@
 body {
     font-family: Montserrat, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.75em;
     font-weight: 300;
     color: #262626;
@@ -9,30 +9,85 @@ body {
     background-color: #fff;
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
+    text-decoration: none;
 }
 
-.custom-padding {
+/* Navbar */
+
+.div-container-top-border {
+    border-top: 1px solid #dcd5d5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side-bar {
+    width: 300px;
+    padding-right: 20px;
+
+}
+
+.navbar-logo {
+    width: 260px;
+    padding-left: 40px;
+}
+
+
+.div-container-leftside-border {
+    width: 1570px;
+    border-left: 1px solid #dcd5d5;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.header-bottom-border {
+    border-bottom: 1px solid #dcd5d5;
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    border: none;
+    margin-top: 6px;
+    border-radius: 0%;
+    border-top: 1px solid #dcd5d5;
+    padding: 20px;
     padding-right: 50px;
-    padding-left: 38px;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    color: #956810;
 }
 
-.upper-menu {
-    font-size: 13px;
-    color: #434242;
+.dropdown-menu a {
+    color: #956810;
 }
 
-.navbar-nav {
-    font-size: 12px;
-    font-weight: 500;
-    text-transform: uppercase;
-    line-height: 2em;
+.custom-navbar-toggler {
+    max-width: 505px;
+    max-height: 90px;
 }
+
+.Toggle-button {
+    width: 170px;
+    max-height: 97px;
+    padding: 25px 15px;
+    border: 0;
+    border-left: 1px solid #dcd5d5;
+    border-radius: 0%;
+    background-color: #f8f9fa;
+
+}
+
+
+/* Navbar-end */
+
+
 
 a {
     text-decoration: none;
-    /* Removes underline */
+
     color: inherit;
-    /* Matches the parent element's text color */
+
 }
 
 .page-title {
@@ -334,127 +389,50 @@ ol {
     stroke: currentColor;
 }
 
-footer {
-    background-color: rgb(20, 32, 59);
-    background-image: url(https://halstein.qodeinteractive.com/wp-content/uploads/2021/10/footer-img-01.jpg);
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    vertical-align: top;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+/* footer */
+
+.footer {
+    height: 640px;
 }
 
-footer .row {
-    padding-top: 140px;
-    padding-bottom: 87px;
-    padding-right: 45.927px;
-    padding-left: 45.917px;
-    margin: 0;
+.footer-container {
+    padding-top: 180px;
+    padding-bottom: 180px;
 }
 
-footer p {
-    unicode-bidi: isolate;
-    color: #b7b8be;
-    display: block;
-    font-family: Montserrat, sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    letter-spacing: normal;
-    line-height: 28px;
+.footer-colom1 {
+    padding-right: 200px;
+    font-size: 17px;
+    color: #797c8d;
 }
 
-.rounded-circle {
-    background-color: #d4bfa3;
-    color: var(--qode-main-color);
-    border-color: #d4bfa3;
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 0;
-    line-height: 30px;
-    text-align: center;
-    text-transform: uppercase;
-    transition: color 0.3s ease-out, background-color 0.3s ease-out;
+.inpute-placeHolder::placeholder {
+    color: #8a8785;
+    opacity: 1;
 }
 
-.nav-links h5 {
+.icon-hover-color {
+    transition: background-color 0.3s ease;
+    width: 32px;
+    height: 32px;
+    background-color: #ecdec2;
+    color: #797c8d;
+    font-size: 14px;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 1.4em;
-    font-family: Marcellus, serif;
-    color: rgb(255, 255, 255);
 }
 
-.list-unstyled li a {
-    color: #b7b8be;
-    font-family: Montserrat, sans-serif;
-    font-size: 16px;
-    font-weight: 300;
+.icon-hover-color a {
+    color: #2e2f31;
 }
 
-.faq-links h5 {
-    color: #fff;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1.4em;
-    font-family: Marcellus, serif;
-    word-wrap: break-word;
+.icon-hover-color:hover {
+    background-color: none;
+    border: 1px solid #ecdec2;
+    background-color: #14203a;
+    color: #b49b69;
 }
 
-.faq-links ul li a {
-    font-family: Montserrat, sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    color: #b7b8be;
-}
-
-/* Title styling */
-.Subscribe-section h5 {
-    color: #fff;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1.4em;
-    font-family: "Marcellus", serif;
-}
-
-/* Underline (border-bottom) styling */
-form {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
-    /* White underline */
-}
-
-form input::placeholder {
-    color: rgba(255, 255, 255, 0.7) !important;
-    font-size: 1rem;
-    font-family: Arial, sans-serif;
-}
-
-footer form input {
-    color: white !important;
-    background: transparent !important;
-    flex: 1;
-    /* Makes the input take up the remaining space */
-    padding-left: 0;
-}
-
-/* Arrow SVG */
-.arrow-left {
-    display: block;
-    width: 18px;
-    fill: none;
-    stroke: currentColor;
-}
-
-.footer-bottom {
-    padding-right: 45.927px;
-    padding-left: 45.917px;
-    padding: 0 1rem;
-    /* Consistent padding */
-    margin: 0;
-    /* Remove any margins causing overflow */
-}
-
-.locations a {
-    color: #b7b8be;
+.icon-hover-color:hover a {
+    color: #ecdec2;
 }
