@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halstein</title>
+    <!-- Bootstrap CSS for styling -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+</head>
+
+<body>
+    <!-- Header section -->
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <!-- Navigation bar -->
+                <nav class="navbar navbar-expand-lg p-0">
+                    <!-- Company logo with a link to the homepage -->
+                    <a class="navbar-brand custom-padding pt-4 pb-4 m-0" href="https://halstein.qodeinteractive.com/"
+                        rel="home">
+                        <img src="https://halstein.qodeinteractive.com/wp-content/uploads/2022/01/halstein-main-logo.png"
+                            class="header-logo-image" alt="logo main" loading="eager" />
+                    </a>
+
+                    <!-- Upper menu for contact info and language selection -->
+                    <div class="border row">
+                        <!-- Upper menu (email, phone, working hours) -->
+                        <div class="border-bottom upper-menu w-100">
+                            <div class="align-items-center fw-lighter">
+                                <!-- Email address -->
+                                <span class="border-end px-4 d-none d-lg-inline">
+                                    <a href="mailto:halstein@example.com">halstein@example.com</a>
+                                </span>
+                                <!-- Phone number -->
+                                <span class="border-end px-4 d-none d-lg-inline">
+                                    <a href="tel:+99411721270">+99 4 11 72 1270</a>
+                                </span>
+                                <!-- Working hours -->
+                                <span class="px-4 d-none d-lg-inline">Mon - Fri 9am - 5pm</span>
+                                <!-- Language dropdown menu -->
+                                <span class="float-end pe-5 d-none d-lg-inline">
+                                    <div class="dropdown">
+                                        <button class="btn btn-sm btn-secondary dropdown-toggle" type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            English
+                                        </button>
+                                        <ul class="dropdown-menu lang-dropdown">
+                                            <li><a class="dropdown-item" href="#">Francais</a></li>
+                                            <li><a class="dropdown-item" href="#">Deutsch</a></li>
+                                            <li><a class="dropdown-item" href="#">Italiano</a></li>
+                                        </ul>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- Lower menu for main navigation links -->
+                        <div class="pt-3 pb-3">
+                            <div class="row row-cols-lg-5">
+                                <ul class="navbar-nav w-100 d-flex ps-5">
+                                    <!-- HOME -->
+                                    <li class="nav-item dropdown d-none d-lg-block">
+                                        <a class="nav-link" href="#" id="pagesDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            HOME
+                                        </a>
+                                        <ul class="dropdown-menu lowerMenu-dropdown" aria-labelledby="homeDropdown">
+                                            <li class="menu-item-30">
+                                                <a href="https://halstein.qodeinteractive.com/"><span
+                                                        class="menu-item-text">Main Home</span></a>
+                                            </li>
+                                            <li class="menu-item-943">
+                                                <a href="https://halstein.qodeinteractive.com/consulting/"><span
+                                                        class="menu-item-text">Consulting</span></a>
+                                            </li>
+                                            <li class="menu-item-1418">
+                                                <a href="https://halstein.qodeinteractive.com/mentorship/"><span
+                                                        class="menu-item-text">Mentorship</span></a>
+                                            </li>
+                                            <li class="menu-item-1489">
+                                                <a href="https://halstein.qodeinteractive.com/conference/"><span
+                                                        class="menu-item-text">Conference</span></a>
+                                            </li>
+                                            <li class="menu-item-3479">
+                                                <a href="https://halstein.qodeinteractive.com/training-home/"><span
+                                                        class="menu-item-text">Training Home</span></a>
+                                            </li>
+                                            <li class="menu-item-3480">
+                                                <a href="https://halstein.qodeinteractive.com/advisory-light/"><span
+                                                        class="menu-item-text">Advisory Light</span></a>
+                                            </li>
+                                            <li class="menu-item-3775">
+                                                <a href="https://halstein.qodeinteractive.com/advisory-dark/"><span
+                                                        class="menu-item-text">Advisory Dark</span></a>
+                                            </li>
+                                            <li class="menu-item-1365">
+                                                <a href="https://halstein.qodeinteractive.com/company-blog/"><span
+                                                        class="menu-item-text">Company Blog</span></a>
+                                            </li>
+                                            <li class="menu-item-3478">
+                                                <a href="https://halstein.qodeinteractive.com/bussines-home/"><span
+                                                        class="menu-item-text">Bussines Home</span></a>
+                                            </li>
+                                            <li class="menu-item-944">
+                                                <a href="https://halstein.qodeinteractive.com/vertical-slider/"><span
+                                                        class="menu-item-text">Vertical Slider</span></a>
+                                            </li>
+                                            <li class="menu-item-2141">
+                                                <a href="https://halstein.qodeinteractive.com/company-home/"><span
+                                                        class="menu-item-text">Company Home</span></a>
+                                            </li>
+                                            <li class="menu-item-1615">
+                                                <a href="https://halstein.qodeinteractive.com/interactive-links/"><span
+                                                        class="menu-item-text">Interactive links</span></a>
+                                            </li>
+                                            <li class="menu-item-1638">
+                                                <a href="https://halstein.qodeinteractive.com/landing/"><span
+                                                        class="menu-item-text">Landing</span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <!-- pages -->
+                                    <li class="nav-item dropdown d-none d-lg-block">
+                                        <a class="nav-link" href="#" id="pagesDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            PAGES
+                                        </a>
+                                        <ul class="dropdown-menu lowerMenu-dropdown" aria-labelledby="pagesDropdown">
+                                            <li class="menu-item-object-page">
+                                                <a href="https://halstein.qodeinteractive.com/about-us/"><span
+                                                        class="menu-item-text">About Us</span></a>
+                                            </li>
+                                            <li class="menu-item-object-page">
+                                                <a href="https://halstein.qodeinteractive.com/our-team/"><span
+                                                        class="menu-item-text">Our Team</span></a>
+                                            </li>
+                                            <!-- Blog with Submenu -->
+                                            <li class="nav-item dropdown-submenu blog-menu">
+                                                <a href="#">
+                                                    <span class="menu-item-text">Blog</span>
+                                                </a>
+                                                <svg class="menu-item-arrow" xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"
+                                                    viewBox="0 0 32 32">
+                                                    <g>
+                                                        <path
+                                                            d="M 13.8,24.196c 0.39,0.39, 1.024,0.39, 1.414,0l 6.486-6.486c 0.196-0.196, 0.294-0.454, 0.292-0.71 c0-0.258-0.096-0.514-0.292-0.71L 15.214,9.804c-0.39-0.39-1.024-0.39-1.414,0c-0.39,0.39-0.39,1.024,0,1.414L 19.582,17 L 13.8,22.782C 13.41,23.172, 13.41,23.806, 13.8,24.196z">
+                                                        </path>
+                                                    </g>
+                                                </svg>
+                                                <ul class="dropdown-menu dropdown-sub-menu"
+                                                    aria-labelledby="blogDropdown">
+                                                    <li class="dropdown-item">
+                                                        <a href="https://halstein.qodeinteractive.com/right-sidebar/">
+                                                            <span class="menu-item-text">Right Sidebar</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a href="https://halstein.qodeinteractive.com/left-sidebar/">
+                                                            <span class="menu-item-text">Left Sidebar</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a href="https://halstein.qodeinteractive.com/no-sidebar/">
+                                                            <span class="menu-item-text">No Sidebar</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a
+                                                            href="https://halstein.qodeinteractive.com/creating-successful-strategies-for-businesses/">
+                                                            <span class="menu-item-text">Standard Post</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a
+                                                            href="https://halstein.qodeinteractive.com/help-you-to-create-businesses-both-big-and-small/">
+                                                            <span class="menu-item-text">Gallery Post</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a
+                                                            href="https://halstein.qodeinteractive.com/an-economist-is-an-expert-who-will-know-tomorrow-why-the-things-he-predicted-yesterday-didnt-happen-today/">
+                                                            <span class="menu-item-text">Quote Post</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a
+                                                            href="https://halstein.qodeinteractive.com/our-bussines-thrives-to-contribute-important-global-iniatives/">
+                                                            <span class="menu-item-text">Video Post</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a
+                                                            href="https://halstein.qodeinteractive.com/we-are-your-perfect-partners-for-business-grownth-and-success/">
+                                                            <span class="menu-item-text">Audio Post</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a
+                                                            href="https://halstein.qodeinteractive.com/step-in-the-right-direction-to-boost-your-economic-potential/">
+                                                            <span class="menu-item-text">Link Post</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a
+                                                            href="https://halstein.qodeinteractive.com/productive-tips-learn-to-achive-more-with-your-nine-to-five/">
+                                                            <span class="menu-item-text">No Sidebar Post</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                                            <!-- events with submenu -->
+                                            <li class="nav-item dropdown-submenu">
+                                                <a href="#"><span class="menu-item-text">Events</span></a>
+                                                <svg class="menu-item-arrow" xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"
+                                                    viewBox="0 0 32 32">
+                                                    <g>
+                                                        <path
+                                                            d="M 13.8,24.196c 0.39,0.39, 1.024,0.39, 1.414,0l 6.486-6.486c 0.196-0.196, 0.294-0.454, 0.292-0.71 c0-0.258-0.096-0.514-0.292-0.71L 15.214,9.804c-0.39-0.39-1.024-0.39-1.414,0c-0.39,0.39-0.39,1.024,0,1.414L 19.582,17 L 13.8,22.782C 13.41,23.172, 13.41,23.806, 13.8,24.196z">
+                                                        </path>
+                                                    </g>
+                                                </svg>
+                                                <ul class="dropdown-menu dropdown-sub-menu">
+                                                    <li class="dropdown-item">
+                                                        <a
+                                                            href="https://halstein.qodeinteractive.com/event-item/future-technologies-in-business/"><span
+                                                                class="menu-item-text">Event Single</span></a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a href="https://halstein.qodeinteractive.com/event-list/"><span
+                                                                class="menu-item-text">Event List</span></a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item-1180">
+                                                <a href="https://halstein.qodeinteractive.com/pricing-plans/"><span
+                                                        class="menu-item-text">Pricing Plans</span></a>
+                                            </li>
+                                            <li class="menu-item-1887">
+                                                <a href="https://halstein.qodeinteractive.com/work-inquiry/"><span
+                                                        class="menu-item-text">Work Inquiry</span></a>
+                                            </li>
+                                            <li class="menu-item-2041">
+                                                <a href="https://halstein.qodeinteractive.com/get-in-touch/"><span
+                                                        class="menu-item-text">Get In Touch</span></a>
+                                            </li>
+                                            <li class="menu-item-7788">
+                                                <a href="https://halstein.qodeinteractive.com/contact-us/"><span
+                                                        class="menu-item-text">Contact Us</span></a>
+                                            </li>
+                                            <li class="menu-item-1888">
+                                                <a href="https://halstein.qodeinteractive.com/faq-page/"><span
+                                                        class="menu-item-text">FAQ Page</span></a>
+                                            </li>
+                                            <li class="menu-item-1525">
+                                                <a href="https://halstein.qodeinteractive.com/coming-soon/"><span
+                                                        class="menu-item-text">Coming Soon</span></a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <!-- PORTFOLIO -->
+                                    <li class="nav-item dropdown d-none d-lg-block">
+                                        <a class="nav-link" href="#" id="portfolioDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            PORTFOLIO
+                                        </a>
+                                        <ul class="dropdown-menu lowerMenu-dropdown"
+                                            aria-labelledby="portfolioDropdown">
+                                            <li class="menu-item-281">
+                                                <a href="https://halstein.qodeinteractive.com/portfolio/standard-list/"><span
+                                                        class="menu-item-text">Standard List</span></a>
+                                            </li>
+                                            <li class="menu-item-280">
+                                                <a href="https://halstein.qodeinteractive.com/portfolio/gallery-list/"><span
+                                                        class="menu-item-text">Gallery List</span></a>
+                                            </li>
+                                            <!-- Layouts with submenu -->
+                                            <li class="nav-item dropdown-submenu">
+                                                <a href="#" onclick="JavaScript: return false;"><span
+                                                        class="menu-item-text">Layouts</span></a>
+                                                <svg class="menu-item-arrow" xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"
+                                                    viewBox="0 0 32 32">
+                                                    <g>
+                                                        <path
+                                                            d="M 13.8,24.196c 0.39,0.39, 1.024,0.39, 1.414,0l 6.486-6.486c 0.196-0.196, 0.294-0.454, 0.292-0.71 c0-0.258-0.096-0.514-0.292-0.71L 15.214,9.804c-0.39-0.39-1.024-0.39-1.414,0c-0.39,0.39-0.39,1.024,0,1.414L 19.582,17 L 13.8,22.782C 13.41,23.172, 13.41,23.806, 13.8,24.196z">
+                                                        </path>
+                                                    </g>
+                                                </svg>
+                                                <ul class="dropdown-menu dropdown-sub-menu">
+                                                    <li class="dropdown-item">
+                                                        <a
+                                                            href="https://halstein.qodeinteractive.com/portfolio/two-columns/"><span
+                                                                class="menu-item-text">Two Columns</span></a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a
+                                                            href="https://halstein.qodeinteractive.com/portfolio/three-columns/"><span
+                                                                class="menu-item-text">Three Columns</span></a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a
+                                                            href="https://halstein.qodeinteractive.com/portfolio/three-columns-wide/"><span
+                                                                class="menu-item-text">Three Columns Wide</span></a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a
+                                                            href="https://halstein.qodeinteractive.com/portfolio/four-columns/"><span
+                                                                class="menu-item-text">Four Columns</span></a>
+                                                    </li>
+                                                    <li class="dropdown-item">
+                                                        <a
+                                                            href="https://halstein.qodeinteractive.com/portfolio/four-columns-wide/"><span
+                                                                class="menu-item-text">Four Columns Wide</span></a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                                            <!-- Single Types with submenu -->
+                                            <li class="nav-item dropdown-submenu">
+                                                <a href="#" onclick="JavaScript: return false;"><span
+                                                        class="menu-item-text">Single Types</span></a>
+                                                <svg class="menu-item-arrow" xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"
+                                                    viewBox="0 0 32 32">
+                                                    <g>
+                                                        <path
+                                                            d="M 13.8,24.196c 0.39,0.39, 1.024,0.39, 1.414,0l 6.486-6.486c 0.196-0.196, 0.294-0.454, 0.292-0.71 c0-0.258-0.096-0.514-0.292-0.71L 15.214,9.804c-0.39-0.39-1.024-0.39-1.414,0c-0.39,0.39-0.39,1.024,0,1.414L 19.582,17 L 13.8,22.782C 13.41,23.172, 13.41,23.806, 13.8,24.196z">
+                                                        </path>
+                                                    </g>
+                                                </svg>
+                                                <ul class="dropdown-menu dropdown-sub-menu">
+                                                    <li class="dropdown-item menu-item-291">
+                                                        <a
+                                                            href="https://halstein.qodeinteractive.com/portfolio-item/intern-program/"><span
+                                                                class="menu-item-text">Big Images</span></a>
+                                                    </li>
+                                                    <li class="dropdown-item menu-item-288">
+                                                        <a
+                                                            href="https://halstein.qodeinteractive.com/portfolio-item/fairtrade/"><span
+                                                                class="menu-item-text">Small Images</span></a>
+                                                    </li>
+                                                    <li class="dropdown-item menu-item-292">
+                                                        <a
+                                                            href="https://halstein.qodeinteractive.com/portfolio-item/investments/"><span
+                                                                class="menu-item-text">Big Gallery</span></a>
+                                                    </li>
+                                                    <li class="dropdown-item menu-item-287">
+                                                        <a
+                                                            href="https://halstein.qodeinteractive.com/portfolio-item/rebranding/"><span
+                                                                class="menu-item-text">Small Gallery</span></a>
+                                                    </li>
+                                                    <li class="dropdown-item menu-item-294">
+                                                        <a
+                                                            href="https://halstein.qodeinteractive.com/portfolio-item/balance-sheet/"><span
+                                                                class="menu-item-text">Big Masonry</span></a>
+                                                    </li>
+                                                    <li class="dropdown-item menu-item-289">
+                                                        <a
+                                                            href="https://halstein.qodeinteractive.com/portfolio-item/golden-hello/"><span
+                                                                class="menu-item-text">Small Masonry</span></a>
+                                                    </li>
+                                                    <li class="dropdown-item menu-item-290">
+                                                        <a
+                                                            href="https://halstein.qodeinteractive.com/portfolio-item/ethical-trade/"><span
+                                                                class="menu-item-text">Small Slider</span></a>
+                                                    </li>
+                                                    <li class="dropdown-item menu-item-293">
+                                                        <a
+                                                            href="https://halstein.qodeinteractive.com/portfolio-item/business-cycle/"><span
+                                                                class="menu-item-text">Big Slider</span></a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <!-- SHOP -->
+                                    <li class="nav-item dropdown d-none d-lg-block">
+                                        <a class="nav-link" href="#" id="shopDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            SHOP
+                                        </a>
+                                        <ul class="dropdown-menu lowerMenu-dropdown" aria-labelledby="shopDropdown">
+                                            <li class="menu-item-910">
+                                                <a
+                                                    href="https://halstein.qodeinteractive.com/product/business-magazine/"><span
+                                                        class="menu-item-text">Shop Single</span></a>
+                                            </li>
+                                            <li class="menu-item-903">
+                                                <a href="https://halstein.qodeinteractive.com/shop/"><span
+                                                        class="menu-item-text">Shop List</span></a>
+                                            </li>
+                                            <!-- Shop Pages with submenu -->
+                                            <li class="nav-item dropdown-submenu">
+                                                <a href="#"><span class="menu-item-text">Shop Pages</span></a>
+                                                <svg class="menu-item-arrow" xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"
+                                                    viewBox="0 0 32 32">
+                                                    <g>
+                                                        <path
+                                                            d="M 13.8,24.196c 0.39,0.39, 1.024,0.39, 1.414,0l 6.486-6.486c 0.196-0.196, 0.294-0.454, 0.292-0.71 c0-0.258-0.096-0.514-0.292-0.71L 15.214,9.804c-0.39-0.39-1.024-0.39-1.414,0c-0.39,0.39-0.39,1.024,0,1.414L 19.582,17 L 13.8,22.782C 13.41,23.172, 13.41,23.806, 13.8,24.196z">
+                                                        </path>
+                                                    </g>
+                                                </svg>
+                                                <ul class="dropdown-menu dropdown-sub-menu">
+                                                    <li class="dropdown-item menu-item-914">
+                                                        <a href="https://halstein.qodeinteractive.com/cart/"><span
+                                                                class="menu-item-text">Cart</span></a>
+                                                    </li>
+                                                    <li class="dropdown-item menu-item-915">
+                                                        <a href="https://halstein.qodeinteractive.com/my-account/"><span
+                                                                class="menu-item-text">My account</span></a>
+                                                    </li>
+                                                    <li class="dropdown-item menu-item-916">
+                                                        <a href="https://halstein.qodeinteractive.com/checkout/"><span
+                                                                class="menu-item-text">Checkout</span></a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <!-- Shop Layouts with submenu -->
+                                            <li class="nav-item dropdown-submenu">
+                                                <a href="#"><span class="menu-item-text">Shop Layouts</span></a>
+                                                <svg class="menu-item-arrow" xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"
+                                                    viewBox="0 0 32 32">
+                                                    <g>
+                                                        <path
+                                                            d="M 13.8,24.196c 0.39,0.39, 1.024,0.39, 1.414,0l 6.486-6.486c 0.196-0.196, 0.294-0.454, 0.292-0.71 c0-0.258-0.096-0.514-0.292-0.71L 15.214,9.804c-0.39-0.39-1.024-0.39-1.414,0c-0.39,0.39-0.39,1.024,0,1.414L 19.582,17 L 13.8,22.782C 13.41,23.172, 13.41,23.806, 13.8,24.196z">
+                                                        </path>
+                                                    </g>
+                                                </svg>
+                                                <ul class="dropdown-menu dropdown-sub-menu">
+                                                    <li class="dropdown-item menu-item-953">
+                                                        <a
+                                                            href="https://halstein.qodeinteractive.com/shop/three-columns/"><span
+                                                                class="menu-item-text">Three Columns</span></a>
+                                                    </li>
+                                                    <li class="dropdown-item menu-item-952">
+                                                        <a
+                                                            href="https://halstein.qodeinteractive.com/shop/four-columns/"><span
+                                                                class="menu-item-text">Four Columns</span></a>
+                                                    </li>
+                                                    <li class="dropdown-item menu-item-951">
+                                                        <a
+                                                            href="https://halstein.qodeinteractive.com/shop/five-columns-wide/"><span
+                                                                class="menu-item-text">Five Columns Wide</span></a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+
+                                        <!-- Info link with an icon -->
+                                    </li>
+
+                                    <li class="custom border-start nav-item ms-auto">
+                                        <a class="nav-link active pe-lg-5 ps-lg-5" aria-current="page"
+                                            href="javascript:void(0)">
+                                            <!-- Visible only on larger screens -->
+                                            <span class="d-none d-lg-inline">INFO</span>
+
+                                            <!-- SVG Icon (Always visible) -->
+                                            <span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31"
+                                                    viewBox="0 0 31 31">
+                                                    <g>
+                                                        <path d="M15 0h1v31h-1Z"></path>
+                                                        <path d="M15 0h1v31h-1V0Z"></path>
+                                                    </g>
+                                                    <g>
+                                                        <path d="M0 15h31v1H0Z"></path>
+                                                        <path d="M0 15h31v1H0v-1Z"></path>
+                                                    </g>
+                                                    <g>
+                                                        <path d="m26.106 4.186.707.707-21.92 21.92-.707-.707Z"></path>
+                                                        <path
+                                                            d="m26.106 4.186.707.707-21.92 21.92-.707-.708 21.92-21.92Z">
+                                                        </path>
+                                                    </g>
+                                                    <g>
+                                                        <path d="m26.813 26.105-.707.707-21.92-21.92.707-.707Z"></path>
+                                                        <path
+                                                            d="M26.106 26.813 4.186 4.893l.707-.707 21.92 21.92-.707.707Z">
+                                                        </path>
+                                                    </g>
+                                                </svg>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page title section -->
+    <section class="page-title d-flex flex-column justify-content-center position-relative">
+        <div class="ps-md-5 ps-3">
+            <h1>About Us</h1>
+            <!-- Breadcrumb navigation -->
+            <div class="page-sub-title">
+                <a class="page-sub-title-link text-decoration-none" href="https://halstein.qodeinteractive.com/">
+                    <span>HOME</span>
+                </a>
+                <span class="page-sub-title-separator mx-2"> - </span>
+                <span class="page-sub-title-current">ABOUT US</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- mission statement section -->
+    <section class="missionStatement position-relative">
+        <img src="https://halstein.qodeinteractive.com/wp-content/uploads/2021/10/h1-img-014.png" class="mission-img"
+            alt="image" loading="eager" />
+
+        <div class="position-absolute top-50 start-50 translate-middle missionText">
+            <h2>
+                Launch your creative ideas. Whatever you
+                <span class="highlight-text" style="color: #b29063">imagine we</span>
+                will make it happen with our team of specialists.
+            </h2>
+            <h6 class="subtitle">Alex lee, ceo</h6>
+        </div>
+    </section>
+
+    <!-- cards section -->
+    <section class="container-fluid">
+        <div class="row align-items-start m-0">
+            <!-- Card 1 -->
+            <div class="col-12 col-lg-6">
+                <div>
+                    <a href="https://halstein.qodeinteractive.com/portfolio-item/expertise-advice/" target="_blank">
+                        <img class="card-img-top" alt="Card 1"
+                            src="https://halstein.qodeinteractive.com/wp-content/uploads/2021/10/h1-img-01.jpg"
+                            loading="eager" />
+                    </a>
+                </div>
+            </div>
+
+            <!-- Wrapper for Cards 2, 3, 4, and 5 -->
+            <div class="col-12 col-lg-6 py-2 pt-md-0">
+                <div class="row">
+                    <!-- Card 2 -->
+                    <div class="col-12 col-md-6 pt-md-4 pt-lg-0">
+                        <a href="https://halstein.qodeinteractive.com/portfolio-item/rebranding/" target="_blank">
+                            <img src="https://halstein.qodeinteractive.com/wp-content/uploads/2021/10/h1-img-02.jpg"
+                                alt="Card 2" class="card-img-top" loading="eager" />
+                        </a>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="col-12 col-md-6 pt-md-4 pt-lg-0">
+                        <a href="https://halstein.qodeinteractive.com/portfolio-item/golden-hello/" target="_blank">
+                            <img src="https://halstein.qodeinteractive.com/wp-content/uploads/2021/10/h1-img-03.jpg"
+                                alt="Card 3" class="card-img-top" loading="eager" />
+                        </a>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="col-12 col-md-6 pt-md-4">
+                        <a href="https://halstein.qodeinteractive.com/portfolio-item/intern-program/" target="_blank">
+                            <img src="https://halstein.qodeinteractive.com/wp-content/uploads/2021/10/h1-img-04.jpg"
+                                alt="Card 4" class="card-img-top" loading="eager" />
+                        </a>
+                    </div>
+                    <!-- Card 5 -->
+                    <div class="col-12 col-md-6 pt-md-4">
+                        <a href="https://halstein.qodeinteractive.com/portfolio-item/expertise-advice/" target="_blank">
+                            <img src="https://halstein.qodeinteractive.com/wp-content/uploads/2021/10/h1-img-05.jpg"
+                                alt="Card 5" class="card-img-top" loading="eager" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- expertise-section -->
+    <section class="container expertise-section">
+        <div class="section-title">
+            <h6 class="tagline">School professors</h6>
+            <h2 class="title">Expertise and roles we are leaders in.</h2>
+        </div>
+        <div class="list-items">
+            <ol class="row">
+                <li class="col-lg-6 list-item">
+                    <span class="list-item-number"></span>
+                    <div class="list-item-content">
+                        <h4 class="list-item-title">Passive investment</h4>
+                        <p class="list-item-text">
+                            Duis aute irure dolor in reprehenderit in voluptate sunt inuic.
+                        </p>
+                    </div>
+                </li>
+                <li class="col-lg-6 list-item">
+                    <span class="list-item-number"></span>
+                    <div class="list-item-content">
+                        <h4 class="list-item-title">Economy management</h4>
+                        <p class="list-item-text">
+                            Duis aute irure dolor in reprehenderit in voluptate sunt inuic.
+                        </p>
+                    </div>
+                </li>
+                <li class="col-lg-6 list-item">
+                    <span class="list-item-number"></span>
+                    <div class="list-item-content">
+                        <h4 class="list-item-title">Business development</h4>
+                        <p class="list-item-text">
+                            Duis aute irure dolor in reprehenderit in voluptate sunt inuic.
+                        </p>
+                    </div>
+                </li>
+                <li class="col-lg-6 list-item">
+                    <span class="list-item-number"></span>
+                    <div class="list-item-content">
+                        <h4 class="list-item-title">Digital marketing</h4>
+                        <p class="list-item-text">
+                            Duis aute irure dolor in reprehenderit in voluptate sunt inuic.
+                        </p>
+                    </div>
+                </li>
+                <li class="col-lg-6 list-item">
+                    <span class="list-item-number"></span>
+                    <div class="list-item-content">
+                        <h4 class="list-item-title">Cryptocurrency investment</h4>
+                        <p class="list-item-text">
+                            Duis aute irure dolor in reprehenderit in voluptate sunt inuic.
+                        </p>
+                    </div>
+                </li>
+                <li class="col-lg-6 list-item">
+                    <span class="list-item-number"></span>
+                    <div class="list-item-content">
+                        <h4 class="list-item-title">Business integration</h4>
+                        <p class="list-item-text">
+                            Duis aute irure dolor in reprehenderit in voluptate sunt inuic.
+                        </p>
+                    </div>
+                </li>
+                <li class="col-lg-6 list-item">
+                    <span class="list-item-number"></span>
+                    <div class="list-item-content">
+                        <h4 class="list-item-title">Monographic researches</h4>
+                        <p class="list-item-text">
+                            Duis aute irure dolor in reprehenderit in voluptate sunt inuic.
+                        </p>
+                    </div>
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <section class="container-fluid p-0">
+        <div class="row g-0">
+            <!-- Video Image with Play Button -->
+            <div class="col-md-8 position-relative">
+                <img width="1280" height="850"
+                    src="https://halstein.qodeinteractive.com/wp-content/uploads/2021/10/h1-video-img-01.jpg"
+                    class="img-fluid w-100" alt="Video Image" loading="eager" />
+                <a class="play position-absolute top-50 start-50 translate-middle"
+                    href="https://vimeo.com/124801644?_ga=2.124524106.111528814.1733161931-1290832292.1732800612"
+                    data-type="iframe">
+                    <svg class="svg--video-button" xmlns="http://www.w3.org/2000/svg" width="80" height="80"
+                        viewBox="0 0 206 206">
+                        <circle class="circle" stroke="white" stroke-width="4" fill="transparent" cx="103" cy="103"
+                            r="100"></circle>
+                        <polygon class="arrow" fill="white" points="95,84 125,103 95,122"></polygon>
+                    </svg>
+                </a>
+            </div>
+
+            <!-- Second Image with Text -->
+            <div class="col-md-4 position-relative sec-img">
+                <img decoding="async" width="640" height="850"
+                    src="https://halstein.qodeinteractive.com/wp-content/uploads/2021/10/h1-img-06.jpg"
+                    class="img-fluid w-100" alt="Second Image" style="object-fit: cover" loading="eager" />
+                <h4 class="m-0 position-absolute top-50 start-50 translate-middle text-white" style="max-width: 90%">
+                    Watch online presentation<br />
+                    about investments in stock<br />
+                    market for 2022.
+                </h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- carousel auto-playing section -->
+    <section id="carouselAutoplaying" class="container carousel slide position-relative" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <!-- First Slide -->
+            <div class="carousel-item active">
+                <div class="d-flex flex-column justify-content-center align-items-center text-center h-100">
+                    <svg class="quote-testimonials mb-4" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" width="48.242" height="41.797"
+                        viewBox="0 0 48.242 41.797">
+                        <path
+                            d="M29.199 9.183a8.648 8.648 0 0 1 2.783-6.543A9.627 9.627 0 0 1 38.867.003a8.622 8.622 0 0 1 6.641 3.027 10.8 10.8 0 0 1 2.734 7.52 20.53 20.53 0 0 1-1.562 7.422 52.293 52.293 0 0 1-4.053 8.105 89.082 89.082 0 0 1-5.615 8.154q-3.125 4.053-6.348 7.568l-2.634-2.248a59.383 59.383 0 0 0 7.275-10.352 29.975 29.975 0 0 0 3.564-10.449 11.026 11.026 0 0 1-6.836-2.881 8.647 8.647 0 0 1-2.834-6.686Zm-27.93 0A8.723 8.723 0 0 1 4.003 2.64 9.457 9.457 0 0 1 10.839.003 8.622 8.622 0 0 1 17.48 3.03a10.8 10.8 0 0 1 2.734 7.52 20.53 20.53 0 0 1-1.562 7.422 52.291 52.291 0 0 1-4.053 8.105 89.076 89.076 0 0 1-5.615 8.154q-3.125 4.053-6.348 7.568l-2.637-2.246a61.558 61.558 0 0 0 7.324-10.352 27.981 27.981 0 0 0 3.516-10.449 10.919 10.919 0 0 1-6.738-2.881 8.647 8.647 0 0 1-2.832-6.688Z">
+                        </path>
+                    </svg>
+                    <h3 class="e-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor <span style="color: #b29063">incididunt</span>
+                        <span style="color: #b29063">ut</span>
+                        <span style="color: #b29063">labore</span> et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis
+                    </h3>
+                    <h6 class="e-author mt-3">
+                        <span class="e-author-name">Cedric Xiong</span>
+                        <span class="e-author-job d-block">Ceo</span>
+                    </h6>
+                </div>
+            </div>
+
+            <!-- Second Slide -->
+            <div class="carousel-item">
+                <div class="d-flex flex-column justify-content-center align-items-center text-center h-100">
+                    <svg class="quote-testimonials mb-4" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" width="48.242" height="41.797"
+                        viewBox="0 0 48.242 41.797">
+                        <path
+                            d="M29.199 9.183a8.648 8.648 0 0 1 2.783-6.543A9.627 9.627 0 0 1 38.867.003a8.622 8.622 0 0 1 6.641 3.027 10.8 10.8 0 0 1 2.734 7.52 20.53 20.53 0 0 1-1.562 7.422 52.293 52.293 0 0 1-4.053 8.105 89.082 89.082 0 0 1-5.615 8.154q-3.125 4.053-6.348 7.568l-2.634-2.248a59.383 59.383 0 0 0 7.275-10.352 29.975 29.975 0 0 0 3.564-10.449 11.026 11.026 0 0 1-6.836-2.881 8.647 8.647 0 0 1-2.834-6.686Zm-27.93 0A8.723 8.723 0 0 1 4.003 2.64 9.457 9.457 0 0 1 10.839.003 8.622 8.622 0 0 1 17.48 3.03a10.8 10.8 0 0 1 2.734 7.52 20.53 20.53 0 0 1-1.562 7.422 52.291 52.291 0 0 1-4.053 8.105 89.076 89.076 0 0 1-5.615 8.154q-3.125 4.053-6.348 7.568l-2.637-2.246a61.558 61.558 0 0 0 7.324-10.352 27.981 27.981 0 0 0 3.516-10.449 10.919 10.919 0 0 1-6.738-2.881 8.647 8.647 0 0 1-2.832-6.688Z">
+                        </path>
+                    </svg>
+                    <h3 class="e-text">
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu <span style="color: #b29063">fugiat</span>
+                        <span style="color: #b29063">nulla</span>
+                        <span style="color: #b29063">pariatur.</span> Excepteur sint
+                        occaecat cupidatat non proident, sunt in
+                    </h3>
+                    <h6 class="e-author mt-3">
+                        <span class="e-author-name">Ljilja Peltola</span>
+                        <span class="e-author-job d-block">Consultant</span>
+                    </h6>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev d-none d-lg-block" type="button" data-bs-target="#carouselAutoplaying"
+            data-bs-slide="prev">
+            <svg class="slider-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px" y="0px" width="35px" height="53px" viewBox="0 0 35 53" style="enable-background: new 0 0 35 53"
+                xml:space="preserve">
+                <polyline points="19.6,42.1 4.3,26.6 19.6,10.8 "></polyline>
+                <line x1="34.5" y1="53" x2="34.5" y2="0"></line>
+            </svg>
+
+            <!-- Left arrow -->
+        </button>
+        <button class="carousel-control-next d-none d-lg-block" type="button" data-bs-target="#carouselAutoplaying"
+            data-bs-slide="next">
+            <svg class="slider-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px" y="0px" width="35px" height="53px" viewBox="0 0 35 53" style="enable-background: new 0 0 35 53"
+                xml:space="preserve">
+                <polyline points="15.4,10.9 30.7,26.4 15.4,42.2 "></polyline>
+                <line x1="0.5" y1="0" x2="0.5" y2="53"></line>
+            </svg>
+            <!-- Right arrow -->
+        </button>
+    </section>
+
+    <footer>
+        <div class="container-fluid px-0">
+            <div class="container px-md-4 px-2">
+                <div class="row g-4">
+                    <!-- Brand and Description -->
+                    <div class="col-md-6 px-3 mb-5">
+                        <div class="halstein-main-logo">
+                            <div class="m-image">
+                                <a href="https://halstein.qodeinteractive.com/" target="_blank">
+                                    <img decoding="async" width="191" height="51"
+                                        src="https://halstein.qodeinteractive.com/wp-content/uploads/2021/10/footer-logo.png"
+                                        alt="Halstein Logo" loading="eager" />
+                                </a>
+                            </div>
+                        </div>
+                        <p class="mt-4 mb-0 footer-heading">
+                            Professional & modern, a theme designed to help your business
+                            stand out from the rest. For marketing firms, business endeavors
+                            & business consulting.
+                        </p>
+                        <div class="d-flex gap-3 mt-4">
+                            <a href="https://www.facebook.com/QodeInteractive/" target="_blank"
+                                class="rounded-circle d-flex justify-content-center align-items-center text-decoration-none"
+                                style="width: 30px; height: 30px; background-color: #d4bfa3">FB</a>
+                            <a href="#"
+                                class="rounded-circle d-flex justify-content-center align-items-center text-decoration-none"
+                                style="width: 30px; height: 30px; background-color: #d4bfa3">LI</a>
+                            <a href="#"
+                                class="rounded-circle d-flex justify-content-center align-items-center text-decoration-none"
+                                style="width: 30px; height: 30px; background-color: #d4bfa3">IG</a>
+                        </div>
+                    </div>
+
+                    <!-- Navigation Links -->
+                    <div class="col-md-2 px-3 nav-links">
+                        <h5 class="mb-4">Halstein</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-decoration-none">Privacy</a></li>
+                            <li><a href="#" class="text-decoration-none">Conditions</a></li>
+                            <li><a href="#" class="text-decoration-none">Offices</a></li>
+                            <li><a href="#" class="text-decoration-none">Careers</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- FAQ Links -->
+                    <div class="col-md-2 px-3 faq-links">
+                        <h5 class="mb-4">FAQ</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#" class="text-decoration-none">Got any questions?</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none">Buying tickets?</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none">How to advertise?</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none">How to find us?</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Subscribe Section -->
+                    <div class="col-md-2 px-3 Subscribe-section">
+                        <h5>Subscribe</h5>
+                        <form class="d-flex align-items-center pb-2">
+                            <input type="email" placeholder="E-mail*"
+                                class="form-control bg-transparent text-white border-0 flex-grow-1" />
+                            <button type="submit" class="btn text-white">
+                                <svg class="arrow-left" xmlns="http://www.w3.org/2000/svg" width="35" height="53"
+                                    viewBox="0 0 35 53">
+                                    <polyline points="15.4,10.9 30.7,26.4 15.4,42.2"></polyline>
+                                    <line x1="0.5" y1="0" x2="0.5" y2="53"></line>
+                                </svg>
+                            </button>
+                        </form>
+                        <small class="text-white-50">*Send message</small>
+                    </div>
+                </div>
+
+                <!-- Footer Bottom -->
+                <div class="footer-bottom py-3 mt-4 border-top">
+                    <p class="text-center text-white-50 mb-0">
+                        © 2022
+                        <a href="https://qodeinteractive.com/">Qode Interactive</a>, All
+                        Rights Reserved
+                    </p>
+                    <div class="d-flex justify-content-center gap-3 mt-2">
+                        <a href="#" class="text-white-50 border-end pe-3">Zurich</a>
+                        <a href="#" class="text-white-50 border-end pe-3">Paris</a>
+                        <a href="#" class="text-white-50 border-end pe-3">Tokyo</a>
+                        <a href="#" class="text-white-50">Belgrade</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS for interactive elements -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

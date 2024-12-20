@@ -1,0 +1,460 @@
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    line-height: 1.75em;
+    font-weight: 300;
+    color: #262626;
+    letter-spacing: 0;
+    text-transform: initial;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+.custom-padding {
+    padding-right: 50px;
+    padding-left: 38px;
+}
+
+.upper-menu {
+    font-size: 13px;
+    color: #434242;
+}
+
+.navbar-nav {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 2em;
+}
+
+a {
+    text-decoration: none;
+    /* Removes underline */
+    color: inherit;
+    /* Matches the parent element's text color */
+}
+
+.page-title {
+    height: 549px;
+    background-color: #e5d5c0;
+    background-image: url("https://halstein.qodeinteractive.com/wp-content/uploads/2021/10/p1-title-img-01.jpg");
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-title h1 {
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 1.163em;
+    font-family: Marcellus, serif;
+}
+
+.lang-dropdown {
+    font-size: 0.9rem !important;
+    padding: 5px 0 !important;
+    width: auto !important;
+    min-width: 0;
+}
+
+.lowerMenu-dropdown {
+    min-width: 300px;
+}
+
+.lowerMenu-dropdown .menu-item-text {
+    color: #b29063;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 2em;
+    margin-left: 20px;
+}
+
+/* Reduce the size of individual dropdown items */
+.navbar .dropdown-item {
+    font-size: 0.9rem !important;
+    padding: 5px 15px !important;
+}
+
+/* Basic dropdown styling */
+.dropdown-submenu .dropdown-menu {
+    position: absolute;
+    left: 100%;
+    /* Position submenu to the right */
+    top: 0;
+    margin-top: -1px;
+    display: none;
+    /* Initially hidden */
+}
+
+/* Show menu on hover */
+.nav-item.dropdown:hover .lowerMenu-dropdown {
+    display: block;
+}
+
+/* Show submenu on hover */
+.nav-item.dropdown-submenu:hover .dropdown-sub-menu {
+    display: block;
+}
+
+/* More specific selector */
+li.nav-item .menu-item-arrow path {
+    fill: #b29063 !important;
+    /* Use !important to ensure it takes precedence */
+}
+
+/* Remove the default background from the dropdown toggle */
+.navbar .dropdown-toggle {
+    background-color: transparent !important;
+    border: none !important;
+    color: black !important;
+    padding: 5px 10px !important;
+    /* Adjust padding to make it smaller */
+}
+
+.navbar img {
+    width: 220.5px;
+    height: 58px;
+}
+
+.nav-link.active.info {
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.nav-link.dropdown-toggle::after {
+    display: none;
+}
+
+.missionStatement {
+    padding-top: 560px;
+}
+
+.mission-img {
+    padding-left: 100px;
+    position: absolute;
+    top: 0;
+}
+
+.missionStatement h2 {
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 1.227em;
+    font-family: Marcellus, serif;
+}
+
+.missionStatement h6 {
+    margin-top: 55px;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 1.6em;
+    letter-spacing: 0.6em;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    color: #b29063;
+    margin: 25px 0;
+    word-wrap: break-word;
+}
+
+.expertise-section {
+    margin-top: 156px;
+    margin-bottom: 160px;
+}
+
+.expertise-section h6 {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 1.6em;
+    letter-spacing: 0.6em;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    color: #b29063;
+    margin: 25px 0;
+    word-wrap: break-word;
+}
+
+.expertise-section h2 {
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 1.227em;
+    font-family: Marcellus, serif;
+    margin: 25px 0;
+    word-wrap: break-word;
+}
+
+ol {
+    counter-reset: counter 0;
+    list-style: none;
+    padding-left: 0;
+}
+
+/* List item container */
+.list-item {
+    display: flex;
+    /* Aligns the number and content horizontally */
+    align-items: flex-start;
+    /* Vertically align items */
+    gap: 15px;
+    /* Space between number and content */
+    margin: 15px 0;
+}
+
+/* Number styling */
+.list-item-number::before {
+    content: "0" counter(counter);
+    counter-increment: counter;
+    /* Increment the counter */
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.6em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    color: #b29063;
+    display: block;
+    min-width: 40px;
+    /* Align numbers consistently */
+    text-align: center;
+    /* Center-align the number */
+}
+
+.list-item h4 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.285em;
+    font-family: Marcellus, serif;
+    word-wrap: break-word;
+}
+
+.list-item p {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* Default styling for desktop and larger screens */
+.sec-img img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    /* Allow height to adjust automatically */
+    max-height: 850px;
+    /* Restrict the maximum height */
+}
+
+.sec-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.sec-img h4 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.285em;
+    font-family: Marcellus, serif;
+    word-wrap: break-word;
+}
+
+#carouselAutoplaying {
+    margin-top: 170px;
+    margin-bottom: 65px;
+}
+
+.static-quote {
+    margin-bottom: 64px;
+}
+
+.quote-testimonials {
+    fill: #b29063;
+    stroke: none;
+}
+
+.carousel-item {
+    transition: transform 800ms ease-in-out !important;
+}
+
+.carousel-inner {
+    transition: transform 800ms ease-in-out !important;
+}
+
+.carousel-item h3 {
+    margin: 0 0 56px;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 1.294em;
+    font-family: Marcellus, serif;
+    word-wrap: break-word;
+}
+
+.carousel-item h6 {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 1.6em;
+    letter-spacing: 0.6em;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    color: #b29063;
+    word-wrap: break-word;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: auto;
+    /* Automatically adjust to arrow size */
+    color: black;
+    /* Black arrow color */
+    background: none;
+    /* No background */
+    font-size: 2rem;
+    /* Bigger arrow size */
+}
+
+.carousel-control-prev {
+    left: -2rem;
+    /* Position left arrow further to the edge */
+}
+
+.carousel-control-next {
+    right: -2rem;
+    /* Position right arrow further to the edge */
+}
+
+.carousel-control-next svg {
+    display: block;
+    width: 24px;
+    fill: none;
+    stroke: currentColor;
+}
+
+.carousel-control-prev svg {
+    display: block;
+    width: 24px;
+    fill: none;
+    stroke: currentColor;
+}
+
+footer {
+    background-color: rgb(20, 32, 59);
+    background-image: url(https://halstein.qodeinteractive.com/wp-content/uploads/2021/10/footer-img-01.jpg);
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer .row {
+    padding-top: 140px;
+    padding-bottom: 87px;
+    padding-right: 45.927px;
+    padding-left: 45.917px;
+    margin: 0;
+}
+
+footer p {
+    unicode-bidi: isolate;
+    color: #b7b8be;
+    display: block;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: normal;
+    line-height: 28px;
+}
+
+.rounded-circle {
+    background-color: #d4bfa3;
+    color: var(--qode-main-color);
+    border-color: #d4bfa3;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: color 0.3s ease-out, background-color 0.3s ease-out;
+}
+
+.nav-links h5 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4em;
+    font-family: Marcellus, serif;
+    color: rgb(255, 255, 255);
+}
+
+.list-unstyled li a {
+    color: #b7b8be;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.faq-links h5 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4em;
+    font-family: Marcellus, serif;
+    word-wrap: break-word;
+}
+
+.faq-links ul li a {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #b7b8be;
+}
+
+/* Title styling */
+.Subscribe-section h5 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4em;
+    font-family: "Marcellus", serif;
+}
+
+/* Underline (border-bottom) styling */
+form {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    /* White underline */
+}
+
+form input::placeholder {
+    color: rgba(255, 255, 255, 0.7) !important;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+}
+
+footer form input {
+    color: white !important;
+    background: transparent !important;
+    flex: 1;
+    /* Makes the input take up the remaining space */
+    padding-left: 0;
+}
+
+/* Arrow SVG */
+.arrow-left {
+    display: block;
+    width: 18px;
+    fill: none;
+    stroke: currentColor;
+}
+
+.footer-bottom {
+    padding-right: 45.927px;
+    padding-left: 45.917px;
+    padding: 0 1rem;
+    /* Consistent padding */
+    margin: 0;
+    /* Remove any margins causing overflow */
+}
+
+.locations a {
+    color: #b7b8be;
+}
