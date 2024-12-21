@@ -12,6 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
       // Add 'active' class to the next slide
       slides[currentIndex].classList.add('active-1');
     }, 7000); // Each slide stays for 7 seconds
-  });
+});
 
   
